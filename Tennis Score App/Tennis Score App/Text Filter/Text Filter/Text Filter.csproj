@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C849D694-0C42-4EBF-BFB4-D03F9BF488C4}</ProjectGuid>
+    <ProjectGuid>{0B6C7A3C-506F-43C5-A75A-C1EFECCF3485}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Repeat_string</RootNamespace>
-    <AssemblyName>Repeat string</AssemblyName>
+    <RootNamespace>Text_Filter</RootNamespace>
+    <AssemblyName>Text Filter</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="repeat string.cs" />
+    <Compile Include="text filter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

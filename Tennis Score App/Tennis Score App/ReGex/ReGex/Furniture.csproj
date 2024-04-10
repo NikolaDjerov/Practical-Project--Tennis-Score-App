@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C849D694-0C42-4EBF-BFB4-D03F9BF488C4}</ProjectGuid>
+    <ProjectGuid>{AF7531A2-81C6-4203-B358-6A38DF1175B9}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Repeat_string</RootNamespace>
-    <AssemblyName>Repeat string</AssemblyName>
+    <RootNamespace>ReGex</RootNamespace>
+    <AssemblyName>ReGex</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="repeat string.cs" />
+    <Compile Include="Furniture.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

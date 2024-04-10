@@ -14,12 +14,12 @@ namespace Repeat_string
             StringBuilder result = new StringBuilder();
             foreach (string word in words)
             {
-                int count = words.Length;
-                for (int i = 0; i < count; i++)
+                for (int i = 0; i < word.Length; i++)
                 {
                     result.Append(word);
                 }
             }
+            Console.WriteLine(result.ToString());
         }
     }
 }

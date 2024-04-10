@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C849D694-0C42-4EBF-BFB4-D03F9BF488C4}</ProjectGuid>
+    <ProjectGuid>{D0DE87D2-F2D4-4B5E-935A-2AF9426AF372}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Repeat_string</RootNamespace>
-    <AssemblyName>Repeat string</AssemblyName>
+    <RootNamespace>Calculations_with_Characters</RootNamespace>
+    <AssemblyName>Calculations with Characters</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="repeat string.cs" />
+    <Compile Include="Calculations with Characters.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
